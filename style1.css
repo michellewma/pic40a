@@ -1,0 +1,27 @@
+#global-container{
+    /* display elements horizontally */
+    display:flex;
+}
+
+#container1, #container2{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#keypad1, #keypad2{
+    /* grid keypad elements */
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+#operators{
+    margin: 0px 20px;
+    padding: 20px 10px 10px 10px; /*top right bottom left*/
+    height: auto;
+    border: 1px solid black;
+}
+
+#result-container{
+    margin-left: 20px;
+}
