@@ -1,76 +1,17 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <script src="script1.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="style1.css" />
-    <title>A Simple Calculator</title>
+   <meta charset="UTF-8">
+   <title>A Greeting Page for Important People</title>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
+   <link rel="stylesheet" type="text/css" href="style.css" />
+   <script src="main.js" defer></script>
 </head>
 
 <body>
-    <h3>Simple Calculator</h3>
-    <div id="global-container">
-        <div id="container1">
-            <form>
-                <label>First Value <input type="text" id="first" value=""></label>
-            </form>
-            <form id="keypad1">
-                <!-- these represent the first number and call updateFirst when clicked -->
-                <input type="button" value="1" onclick="updateFirst('1');">
-                <input type="button" value="2" onclick="updateFirst('2');">
-                <input type="button" value="3" onclick="updateFirst('3');">
-                <input type="button" value="4" onclick="updateFirst('4');">
-                <input type="button" value="5" onclick="updateFirst('5');">
-                <input type="button" value="6" onclick="updateFirst('6');">
-                <input type="button" value="7" onclick="updateFirst('7');">
-                <input type="button" value="8" onclick="updateFirst('8');">
-                <input type="button" value="9" onclick="updateFirst('9');">
-                <input type="button" value="-" onclick="updateFirst('-');">
-                <input type="button" value="0" onclick="updateFirst('0');">
-                <input type="button" value="." onclick="updateFirst('.');">
-            </form>
-        </div>
-    
-        <form id="operators">
-            <!-- these represent the operators and only one can be checked at a time -->
-            <label><input type="radio" value="+" name="ops" checked>+</label>
-            <br>
-            <label><input type="radio" value="-" name="ops">-</label>
-            <br>
-            <label><input type="radio" value="*" name="ops">x</label>
-            <br>
-            <label><input type="radio" value="/" name="ops">&divide;</label>
-        </form>
-    
-        <div id="container2">
-            <form>
-                <label>Second Value <input type="text" id="second" value=""></label>
-            </form>
-            <form id="keypad2">
-                <!-- these represent the second number and call updateFirst when clicked -->
-                <input type="button" value="1" onclick="updateSecond('1');">
-                <input type="button" value="2" onclick="updateSecond('2');">
-                <input type="button" value="3" onclick="updateSecond('3');">
-                <input type="button" value="4" onclick="updateSecond('4');">
-                <input type="button" value="5" onclick="updateSecond('5');">
-                <input type="button" value="6" onclick="updateSecond('6');">
-                <input type="button" value="7" onclick="updateSecond('7');">
-                <input type="button" value="8" onclick="updateSecond('8');">
-                <input type="button" value="9" onclick="updateSecond('9');">
-                <input type="button" value="-" onclick="updateSecond('-');">
-                <input type="button" value="0" onclick="updateSecond('0');">
-                <input type="button" value="." onclick="updateSecond('.');">
-            </form>
-        </div>
-    
-        <div id="result-container">
-            <form>
-                <!-- compute when clicked and display result in p section -->
-                <input type="button" value="compute" onclick="compute();">
-            </form>
-            <p id="result"></p>
-        </div>
+    <div id="content">
+        <h1>A Greeting Page for Important People</h1>
     </div>
 </body>
+
 </html>

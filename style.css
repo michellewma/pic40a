@@ -1,0 +1,27 @@
+#greyContainer{
+  /* Style for the grey container */
+  width: 1200px;
+  background-color: grey;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#innerContainer{
+  /* Style for the moving colored rectangle */
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  margin-left: 0px;
+}
+
+#content{
+  margin-left: 10px;
+}
